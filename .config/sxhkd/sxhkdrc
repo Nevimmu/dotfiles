@@ -1,0 +1,42 @@
+super + e
+	$TERMINAL ranger
+
+super + o
+	opera
+
+super + Return
+	$TERMINAL
+
+super + Escape
+	~/scripts/glitchlock.sh
+
+super + n
+	$TERMINAL ~/scripts/neofetch.sh
+super + r 
+	~/scripts/random_wallpaper.sh
+
+super + w
+	~/scripts/wallpaper.sh
+
+super + c
+	$TERMINAL tty-clock -cs
+
+## Media keys
+
+XF86AudioRaiseVolume
+	pactl set-sink-volume 0 +5%
+
+XF86AudioLowerVolume
+	pactl set-sink-volume 0 -5%
+
+XF86AudioMute
+	amixer -q set Master toggle
+
+XF86MonBrightnessDown
+	xbacklight -dec 10
+ 
+XF86MonBrightnessUp
+	xbacklight -inc 10
+
+Print
+	scrot -z ~/Pictures/Screenshots/screenshot-$(date '+%y%m%d-%H%M-%S').png
