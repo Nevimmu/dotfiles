@@ -8,10 +8,11 @@ super + Return
 	$TERMINAL
 
 super + Escape
-	~/scripts/glitchlock.sh
+	~/scripts/xkcd_lock.sh
 
 super + n
 	$TERMINAL ~/scripts/neofetch.sh
+
 super + r 
 	~/scripts/random_wallpaper.sh
 
@@ -20,6 +21,12 @@ super + w
 
 super + c
 	$TERMINAL tty-clock -cs
+
+super + F1
+	$TERMINAL ranger /run/media/nevimmu/
+
+super +F2
+	$TERMINAL joplin
 
 ## Media keys
 
