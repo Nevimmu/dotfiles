@@ -28,6 +28,9 @@ super + F1
 super +F2
 	$TERMINAL joplin
 
+super + F12
+	networkmanager_dmenu
+
 ## Media keys
 
 XF86AudioRaiseVolume
