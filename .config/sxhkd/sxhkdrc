@@ -13,11 +13,8 @@ super + Escape
 super + n
 	$TERMINAL ~/scripts/neofetch.sh
 
-super + r 
-	~/scripts/random_wallpaper.sh
-
-super + w
-	~/scripts/wallpaper.sh
+super + s 
+	~/scripts/dscript.sh
 
 super + c
 	$TERMINAL tty-clock -cs
